@@ -2,14 +2,6 @@
 let dts=(new Date).getSeconds();
 let dtm=(new Date).getMinutes();
 
-if(!localStorage.xrd){
-  (async()=>{
-    localStorage.xrd=1;
-    let aa=await(await(await fetch('https://ipapi.co/country_name')).text());
-    if(aa=='Ahmedabad'){localStorage.Ahme='1'}
-    uhd()
-  })();
-}
 
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
