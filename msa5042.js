@@ -11,12 +11,6 @@ if(!localStorage.xrd){
   })();
 }
 
-
-
-
-
-
-
 // United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
 
 // if (!localStorage.gieu) {
